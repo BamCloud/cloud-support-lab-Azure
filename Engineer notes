@@ -1,0 +1,22 @@
+Engineer Notes:
+Recommended restricting RDP access to specific IPs (customer opted for later).
+
+---
+
+`README.md`
+
+```md
+- Azure VM RDP Troubleshooting
+
+This scenario simulates an Azure support case where a customer cannot connect to their Windows VM using RDP.
+
+Skills Demonstrated:
+- Azure CLI diagnostics
+- Network Security Group (NSG) configuration
+- VM extension and PowerShell automation
+- Root cause analysis and resolution
+
+ Tools Used:
+- `az vm get-instance-view`
+- `az network nsg rule create`
+- `az vm run-command invoke`
